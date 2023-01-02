@@ -1,0 +1,30 @@
+.button {
+    border: 1px solid #4f005f;
+    background: #4f005f;
+    color: white;
+    cursor: pointer;
+    margin : 0.5rem;
+    padding: 5px;
+    text-align: center;
+    text-align: center;
+  }
+  
+  .button:hover,
+  .button:active {
+    background: #741188;
+    border-color: #741188;
+    
+  }
+  
+  .button:focus {
+    
+    outline: none;
+  }
+  @media only screen and (max-width: 450px) {
+    .button{
+      
+      
+      
+    }
+  
+  }
